@@ -24,8 +24,13 @@
 
 ## 📁 Структура репозитория
 
+Результаты EDA финансового корпуса MultiDoGO находятся в [ноутбуке](notebooks/multidogo_finance_eda.ipynb). В нём сохранены графики, проверки качества данных и выводы для MVP. [Описание и источник данных](data/multidogo_finance/README.md).
+
 ```text
 .
+├── data/multidogo_finance/       # Исходные диалоги и разметка
+├── notebooks/
+│   └── multidogo_finance_eda.ipynb
 ├── docs/
 │   └── ml_system_design_doc.md  # Дизайн-документы
 ├── pyproject.toml               # Конфигурация Ruff
